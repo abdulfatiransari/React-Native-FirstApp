@@ -6,7 +6,7 @@ import {
   State,
 } from "react-native-gesture-handler";
 
-export default function Screen3() {
+export default function Screen4() {
   const onLongPress = (event) => {
     if (event.nativeEvent.state === State.ACTIVE) {
       alert("I've been pressed for 800 milliseconds");
